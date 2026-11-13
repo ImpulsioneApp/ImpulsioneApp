@@ -12,6 +12,12 @@ set(_flutter_generated_config_candidates
     "${CMAKE_CURRENT_SOURCE_DIR}/../ephemeral/generated_config.cmake"
     "${CMAKE_CURRENT_SOURCE_DIR}/../../ephemeral/generated_config.cmake"
     "${CMAKE_CURRENT_SOURCE_DIR}/../../../ephemeral/generated_config.cmake"
+    "${CMAKE_SOURCE_DIR}/flutter/ephemeral/generated_config.cmake"
+    "${CMAKE_SOURCE_DIR}/linux/flutter/ephemeral/generated_config.cmake"
+    "${CMAKE_SOURCE_DIR}/ephemeral/generated_config.cmake"
+  "${PROJECT_DIR}/linux/flutter/ephemeral/generated_config.cmake"
+  "${PROJECT_DIR}/ephemeral/generated_config.cmake"
+  "${CMAKE_BINARY_DIR}/ephemeral/generated_config.cmake"
 )
 
 foreach(_flutter_generated_config IN LISTS _flutter_generated_config_candidates)
@@ -24,7 +30,7 @@ endforeach()
 
 if(NOT EXISTS "${EPHEMERAL_DIR}/generated_config.cmake")
     message(FATAL_ERROR
-        "Flutter generated CMake config not found. Run 'flutter create .' or regenerate the Linux project."
+      "Flutter generated CMake config not found. Run 'flutter pub get' and then 'flutter build linux' from the Flutter project directory to regenerate the Linux build files."
     )
 endif()
 
