@@ -1,0 +1,28 @@
+^C:\USERS\FLAVIA.GOMES\DOWNLOADS\IMPULSIONEAPP-MAIN\IMPULSIONEAPP-MAIN\MOBILE\BUILD\WINDOWS\X64\CMAKEFILES\CFF5E7814B0A5442B0D4DD426CA61527\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\Flavia.Gomes\Desktop\Dart\flutter PROJECT_DIR=C:\Users\Flavia.Gomes\Downloads\ImpulsioneApp-main\ImpulsioneApp-main\mobile FLUTTER_ROOT=C:\Users\Flavia.Gomes\Desktop\Dart\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\Flavia.Gomes\Downloads\ImpulsioneApp-main\ImpulsioneApp-main\mobile\windows\flutter\ephemeral PROJECT_DIR=C:\Users\Flavia.Gomes\Downloads\ImpulsioneApp-main\ImpulsioneApp-main\mobile FLUTTER_TARGET=C:\Users\Flavia.Gomes\Downloads\ImpulsioneApp-main\ImpulsioneApp-main\mobile\lib\main.dart DART_DEFINES=RkxVVFRFUl9CVUlMRF9OQU1FPTEuMC4w,RkxVVFRFUl9CVUlMRF9OVU1CRVI9MQ==,RkxVVFRFUl9WRVJTSU9OPTMuNDcuOA==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049NzM3YmE4Zjg4NQ==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049Y2Y2MzZiMWRmYg==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMy43 DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\Flavia.Gomes\Downloads\ImpulsioneApp-main\ImpulsioneApp-main\mobile\.dart_tool\package_config.json C:/Users/Flavia.Gomes/Desktop/Dart/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\FLAVIA.GOMES\DOWNLOADS\IMPULSIONEAPP-MAIN\IMPULSIONEAPP-MAIN\MOBILE\BUILD\WINDOWS\X64\CMAKEFILES\6D21BCE4FB96655B4933B1EF9E66DC89\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\FLAVIA.GOMES\DOWNLOADS\IMPULSIONEAPP-MAIN\IMPULSIONEAPP-MAIN\MOBILE\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Flavia.Gomes/Downloads/ImpulsioneApp-main/ImpulsioneApp-main/mobile/windows -BC:/Users/Flavia.Gomes/Downloads/ImpulsioneApp-main/ImpulsioneApp-main/mobile/build/windows/x64 --check-stamp-file C:/Users/Flavia.Gomes/Downloads/ImpulsioneApp-main/ImpulsioneApp-main/mobile/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
