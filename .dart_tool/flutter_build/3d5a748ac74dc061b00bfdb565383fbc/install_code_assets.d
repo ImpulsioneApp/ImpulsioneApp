@@ -1,0 +1,1 @@
+ C:\\Users\\julian.silva\\ImpulsioneApp-main\\.dart_tool\\flutter_build\\3d5a748ac74dc061b00bfdb565383fbc\\native_assets.json: 

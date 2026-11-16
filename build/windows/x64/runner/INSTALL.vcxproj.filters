@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\julian.silva\ImpulsioneApp-main\build\windows\x64\CMakeFiles\4c7652c6b318b7c05a91d69a24c28eb0\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C68FFFDA-AE80-3C88-969B-7924E4EE9924}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
